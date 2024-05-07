@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Pertandingan</title>
+</head>
+<body>
+
+<h2>Form Input Pertandingan</h2>
+
+<form action="simpan_data.php" method="POST">
+    <label for="nama_negara">Nama Negara:</label>
+    <select id="nama_negara" name="nama_negara">
+        <option value="Qatar U-23">Qatar U-23</option>
+        <option value="Indonesia U-23">Indonesia U-23</option>
+        <option value="Australia U-23">Australia U-23</option>
+        <option value="Yordania U-23">Yordania U-23</option>
+    </select>
+    <br><br>
+    
+    <label for="jumlah_pertandingan">Jumlah Pertandingan:</label>
+    <input type="number" id="jumlah_pertandingan" name="jumlah_pertandingan" required>
+    <br><br>
+    
+    <label for="jumlah_menang">Jumlah Menang:</label>
+    <input type="number" id="jumlah_menang" name="jumlah_menang" required>
+    <br><br>
+    
+    <label for="jumlah_seri">Jumlah Seri:</label>
+    <input type="number" id="jumlah_seri" name="jumlah_seri" required>
+    <br><br>
+    
+    <label for="jumlah_kalah">Jumlah Kalah:</label>
+    <input type="number" id="jumlah_kalah" name="jumlah_kalah" required>
+    <br><br>
+    
+    <label for="jumlah_poin">Jumlah Poin:</label>
+    <input type="number" id="jumlah_poin" name="jumlah_poin" required>
+    <br><br>
+    
+    <label for="nama_operator">Nama Operator:</label>
+    <input type="text" id="nama_operator" name="nama_operator" required>
+    <br><br>
+    
+    <label for="nim_mahasiswa">NIM Mahasiswa:</label>
+    <input type="text" id="nim_mahasiswa" name="nim_mahasiswa" required>
+    <br><br>
+    
+    <input type="submit" value="Simpan">
+</form>
+
+</body>
+</html>
+
